@@ -1,0 +1,31 @@
+{
+  "name": "at_for_example",
+  "version": "1.0.0",
+  "description": "Попытка пописать автотесты на js + chromedriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dino1992/AT.git"
+  },
+  "keywords": [
+    "at"
+  ],
+  "author": "romantylenev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dino1992/AT/issues"
+  },
+  "homepage": "https://github.com/Dino1992/AT#readme",
+  "devDependencies": {
+    "@wdio/cli": "^5.15.2",
+    "@wdio/local-runner": "^5.15.2",
+    "@wdio/mocha-framework": "^5.15.1",
+    "@wdio/spec-reporter": "^5.15.2",
+    "@wdio/sync": "^5.15.1",
+    "chromedriver": "^77.0.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
